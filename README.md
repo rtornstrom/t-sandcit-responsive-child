@@ -1,4 +1,4 @@
-salnecke-park-responsive-child
-==============================
+t-sandcit-responsive-child
+==========================
 
-Salnecke Park (Responsive Child Theme)
+T-Sandcit (Responsive Child Theme)

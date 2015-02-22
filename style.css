@@ -50,6 +50,24 @@ h3 {font-size: 1.2em !important;}
 p {font-size: 1em;}
 
 /******************************
+ * Main menu
+ ******************************/
+
+.menu li li {
+  background: #585858;
+  border: 1px solid #4c4c4c;
+  color: #fafafa;
+}
+
+.menu li li a {
+  color: #fafafa;
+}
+
+.menu li li:hover {
+	background: #585858 !important;
+}
+
+/******************************
  * Widgets
  ******************************/
  

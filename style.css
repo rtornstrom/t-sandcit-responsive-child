@@ -73,11 +73,21 @@ p {font-size: 1em;}
  
 /* http://cyberchimps.com/guide/same-sized-homepage-widgets/ */
 .home-widgets .widget-wrapper {
-	min-height: 400px;
+	min-height: 520px;
 }
 
 #footer_widget {background-color: #fff !important;}
 #footer_widget .widget-wrapper {background-color: #fff !important; border: #fff !important;}
+
+/******************************
+ * Woocommerce fixes
+ ******************************/
+
+/* Shipping method labels */
+#shipping_method label {
+	margin-left: 4px;
+	display: inline;
+}
 
 
 /*The last 29 days of the month are the hardest."- Nikola Tesla*/

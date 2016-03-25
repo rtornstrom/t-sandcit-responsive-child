@@ -7,10 +7,10 @@ function responsive_child_widgets_init() {
             'id' => 'home-widget-single',
             'before_title' => '<div id="widget-title-three"><h3>',
             'after_title' => '</h3></div>',
-            //'before_widget' => '<div id="%1$s">',
             'before_widget' => '<div id="%1$s" class="widget-wrapper %2$s">',
             'after_widget' => '</div>'
         ));
+
 }
 add_action( 'widgets_init', 'responsive_child_widgets_init' );
 
